@@ -99,7 +99,9 @@ nav{
     justify-content: center;
     align-items: center;
     background-color: #333;
-    margin-left: -10px;}
+    margin-left: -10px;
+    margin-right: 2px;
+}
 .menunivel1{
     display: flex;
     align-items: center;
