@@ -106,6 +106,8 @@ nav{
     display: flex;
     align-items: center;
     width: 100%;
+    margin-left: 19px;
+    margin-right: 19px;
 
 }
 .menunivel1 li{
@@ -133,7 +135,7 @@ nav{
 .menunivel1 .activo{
     background-color: #a6e1f6;
 }
-.menunivel1 .activo a{
+.menunivel1 .activo >a{
     color:rgb(5, 121, 230);
 }
 
