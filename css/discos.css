@@ -343,27 +343,23 @@ td a:hover {
 
 
 
-main li {
-    list-style: none;
-    cursor:pointer;
-    padding: 5px;
-    flex: 1;
-    text-align: center;
-    position:relative;
-    margin-bottom: 50px;
-
-}
-main li a{
+main li a {
     text-decoration: none;
     color: white;
-    font-style: bold;
-    display: block;
-    padding: 10px 155px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    background-color: #0370d6;
+    border-radius: 10px;
+    padding: 10px 20px;
 }
-
-main li:hover {
-    background: linear-gradient(90deg, #db4c20, #d12507, #db4c20);
-    transform: scale(1.05);
+main li a:hover {
+    color: #ff4500;
+}
+main  li{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 
