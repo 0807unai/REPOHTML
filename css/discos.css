@@ -357,8 +357,8 @@ main li a:hover {
     color: #ff4500;
 }
 main  li{
-    list-style: none;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-bottom: 100px;
 }
 
